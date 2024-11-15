@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Load the JavaScript function "main" stored in the loaded file below -->
+
+<body onload="main()">
+    <!-- Select a JavaScript file -->
+    <script src="project2.js"></script>
+
+    <!-- WebGL Utility Scripts -->
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-quat03.js"></script>
+
+    <!-- Setup the Canvas -->
+    <p>
+        <canvas id="webgl" width="300" height="300">
+            Please use a browser that supports "canvas"
+        </canvas>
+    </p>
+
+    <!--- Mesh Move Sliders -->
+    <div>
+        <button onclick="updateSpin()">Spin "YUM" by 45 degrees (X and Z axis)</button>
+    </div>
+
+    <!-- Camera Sliders -->
+    <div>
+        <input type="range" id="sliderX" min="-3" max="3" step=".01" />
+        <label id="cameraX" for="sliderX"></label>
+    </div>
+    <div>
+        <input type="range" id="sliderY" min="-3" max="3" step=".01" />
+        <label id="cameraY" for="sliderY"></label>
+    </div>
+    <!--- <div>
+        <input type="range" id="sliderRotateY" min="0" max="6.283" step=".01" />
+        <label id="cameraRotateY" for="siderRotateY"></label>
+    </div> --->
+
+    <!-- Camera Switch -->
+     <div>
+        <button onclick="setOrtho()">Set to Orthographic camera</button>
+    </div>
+
+    <div>
+        <button onclick="setPerspect()">Set to Perspective camera</button>
+    </div>
+
+    <!-- Projective Sliders -->
+    <div>
+        <input type="range" id="sliderNear" min="1" max="4" step=".01" />
+        <label id="near" for="sliderNear"></label>
+    </div>
+    <div>
+        <input type="range" id="sliderFar" min="5" max="20" step=".01" />
+        <label id="far" for="sliderFar"></label>
+    </div>
+    <div>
+        <input type="range" id="sliderFOVY" min="10" max="170" step=".01" />
+        <label id="fovy" for="sliderFOVY"></label>
+    </div>
+    <div>
+        <input type="range" id="sliderAspect" min=".5" max="2" step=".01" />
+        <label id="aspect" for="sliderAspect"></label>
+    </div>
+
+</body>
+
+</html>
