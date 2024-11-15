@@ -3,14 +3,10 @@
  A project for my Computer Graphics class testing my knowledge of GLSL. This project shows a cat with a flag on him spinning around next to a cooked chicken that is also
  spinning. There is a large “YUM” text sitting in the top right corner that the user is able to rotate
  in 45 degree increments around the X and Z axes.
- 
+
 **Default**
 
- ![image](https://github.com/user-attachments/assets/80795971-0ddc-4bc8-b648-44a49d3151c7)
- 
- **After adjusting “YUM”, FOV and Aspect Ratio**
- 
- ![image](https://github.com/user-attachments/assets/b156db6c-e79c-4980-b98c-9131ff235e13)
+<img src="Desktop 2024.11.15 - 15.03.53.02.DVR_1.gif" width="35%" height="35%"/>
  
 **Files**
 
