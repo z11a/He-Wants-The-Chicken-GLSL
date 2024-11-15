@@ -1,6 +1,6 @@
 **Summary**
  
- This project shows a cat with a flag on him spinning around next to a cooked chicken that is also
+ A project for my Computer Graphics class testing my knowledge of GLSL. This project shows a cat with a flag on him spinning around next to a cooked chicken that is also
  spinning. There is a large “YUM” text sitting in the top right corner that the user is able to rotate
  in 45 degree increments around the X and Z axes.
  
