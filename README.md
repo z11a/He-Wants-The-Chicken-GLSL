@@ -6,6 +6,7 @@
 
 **Default**
 
+(Click the play button in the top right)\
 <img src="Desktop 2024.11.15 - 15.03.53.02.DVR_1.gif" width="35%" height="35%"/>
  
 **Files**
